@@ -104,7 +104,7 @@ function changeToSubtraction() {
 }
 
 function questionSubtract() {
-    var x = Math.floor(Math.random() * 10 + 1);
+    var x = Math.floor(Math.random() * 10 + 10);
     var y = Math.floor(Math.random() * 10 + 1);
     answer = x - y;
     return {
